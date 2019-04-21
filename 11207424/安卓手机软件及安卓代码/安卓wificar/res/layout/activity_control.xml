@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <com.xiangyunzone.wificar.MySurfaceView
+        android:id="@+id/mySurfaceView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <Button
+        android:id="@+id/Btn_back"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:layout_x="65dp"
+        android:layout_y="262dp"
+        android:background="@drawable/goback" />
+
+    <Button
+        android:id="@+id/Btn_wifi"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:layout_x="276dp"
+        android:layout_y="260dp"
+        android:background="@drawable/disconnect" />
+
+    <Button
+        android:id="@+id/Btn_left"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:layout_x="7dp"
+        android:layout_y="262dp"
+        android:background="@drawable/turnleft" />
+
+    <Button
+        android:id="@+id/Btn_right"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:layout_x="122dp"
+        android:layout_y="262dp"
+        android:background="@drawable/turnright" />
+
+    <Button
+        android:id="@+id/Btn_forword"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:layout_x="65dp"
+        android:layout_y="207dp"
+        android:background="@drawable/gohead" />
+
+    <Button
+        android:id="@+id/Btn_DJright"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:layout_x="489dp"
+        android:layout_y="258dp"
+        android:background="@drawable/djright" />
+
+    <Button
+        android:id="@+id/Btn_DJcenter"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:layout_x="423dp"
+        android:layout_y="260dp"
+        android:background="@drawable/djcenter" />
+
+    <Button
+        android:id="@+id/Btn_DJleft"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:layout_x="362dp"
+        android:layout_y="258dp"
+        android:background="@drawable/djleft" />
+
+</AbsoluteLayout>
