@@ -1,0 +1,14 @@
+欢迎使用海康视频能力开放平台的Java版本SDK.
+
+文件夹和文件说明:
+	    (1) artemis-http-client(JDK7),里面提供了JDK7的SDK相关jar包.
+
+	    (2) artemis-http-client(JDK8),里面提供了JDK8的SDK相关jar包,可兼容JDK8及其以上.
+
+	    (3) artemis-sdk-demo,是一个简单的Java project,可以导入IDE开发工具中,在com.hikvision.ga包下运行ArtemisPostTest.java
+	查看接口的简单调用示例.
+		特别说明:ArtemisPostTest.java演示了获取组织列表和获取区域列表需要用的两个POST请求接口的调用.
+			 本工程用的jdk依赖包是JDK8版本,如有需要更改JDK7,请自行更改.
+
+	    (4) artemis-http-client说明文档.pdf,是一个对artemis-http-client简要说明的文档,介绍了工具类Rest接口调用的函数以及
+	每个函数的作用和每个函数入参说明.

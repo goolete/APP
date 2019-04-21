@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff" >
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="449dp"
+        android:layout_height="wrap_content"
+        android:layout_x="42dp"
+        android:layout_y="72dp"
+        android:text="    我们是一群充满梦想的大学生，为了自己的梦想努力在奋斗！！在现在如此激烈的竞争环境下，没有谁能够简简单单成功，但是为自己梦想奋斗的人值得尊敬的，不管他的梦想有多远，未来，为智慧而来！！希望大家支持我们！！"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#000" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="146dp"
+        android:layout_height="88dp"
+        android:layout_x="7dp"
+        android:layout_y="232dp"
+        android:src="@drawable/mycar" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="18dp"
+        android:layout_y="34dp"
+        android:text="关于我们："
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#000" />
+
+    <TextView
+        android:id="@+id/TextView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="311dp"
+        android:layout_y="224dp"
+        android:text="祥云工作室"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#000" />
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="189dp"
+        android:layout_y="253dp"
+        android:autoLink="web"
+        android:linksClickable="true"
+        android:text="http://xiangyunzone.taobao.com"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#000" />
+
+</AbsoluteLayout>

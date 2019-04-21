@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">视频监控V1.0</string>
+    <string name="please_input_preview_uri">请输入您需要播放的实时预览URL</string>
+    <string name="please_input_preview_host">请输入设备的IP地址</string>
+    <string name="please_input_preview_com">请输入设备的端口</string>
+    <string name="please_input_preview_key">请输入设备账号</string>
+    <string name="please_input_preview_secret">请输入设备密码</string>
+    <string name="please_input_playback_uri">请输入您需要播放的录像回放URL</string>
+    <string name="real_preview">开始预览</string>
+    <string name="title_activity_find">保存设置</string>
+    <string name="playback">录像回放</string>
+    <string name="title_activity_preview">实时预览</string>
+    <string name="title_activity_playback">录像回放</string>
+    <string name="capture">截图</string>
+    <string name="start_record">开始录像</string>
+    <string name="close_record">关闭录像</string>
+    <string name="sound_open">声音开</string>
+    <string name="sound_close">声音关</string>
+    <string name="pause">暂停</string>
+    <string name="resume">恢复</string>
+    <string name="link_preview">连接设备</string>
+    <string name="start_preview">开始预览</string>
+    <string name="stop_playback">停止回放</string>
+    <string name="start_playback">开始回放</string>
+</resources>
